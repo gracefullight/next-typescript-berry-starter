@@ -77,6 +77,7 @@ const LoginForm = () => {
                     type="text"
                     margin="dense"
                     fullWidth
+                    autoFocus
                   />
                 </Grid>
               )}
@@ -120,6 +121,7 @@ const LoginForm = () => {
               helperText={errors.otp ? errors.otp.message : null}
               margin="dense"
               fullWidth
+              autoFocus
             />
           </Grid>
         )}
