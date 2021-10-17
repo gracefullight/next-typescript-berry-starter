@@ -76,6 +76,7 @@ const LoginForm = () => {
                     helperText={error ? error.message : null}
                     type="text"
                     margin="dense"
+                    fullWidth
                   />
                 </Grid>
               )}
@@ -99,6 +100,7 @@ const LoginForm = () => {
                     helperText={error ? error.message : null}
                     type="password"
                     margin="dense"
+                    fullWidth
                   />
                 </Grid>
               )}
@@ -117,6 +119,7 @@ const LoginForm = () => {
               error={!!errors.otp}
               helperText={errors.otp ? errors.otp.message : null}
               margin="dense"
+              fullWidth
             />
           </Grid>
         )}

@@ -10,7 +10,7 @@ const Centered = ({ children }: { children: React.ReactNode }) => {
       justifyContent="center"
       sx={{ minHeight: '100vh' }}
     >
-      <Grid item xs={4}>
+      <Grid item width={300}>
         {children}
       </Grid>
     </Grid>
