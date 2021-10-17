@@ -3,7 +3,7 @@ import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 
-const Home: NextPage = () => {
+const IndexPage: NextPage = () => {
   return (
     <Container maxWidth="sm">
       <Box sx={{ my: 4 }}>
@@ -18,4 +18,4 @@ const Home: NextPage = () => {
   )
 }
 
-export default Home
+export default IndexPage
